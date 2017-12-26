@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+
+.artigos{
+  background-color: silver;
+  margin-bottom: 30px;
+}
+
+.text{
+  font-family: georgia;
+  line-height: 30px;
+}
+
+#title_area{
+  background-color: rgb(209, 197, 41);
+}
+
+.title{
+  font-family: impact;
+}
+
+#tux_image{
+  margin-left: 115px;
+}
+
+.article_text{
+  font-size: 15px;
+}
