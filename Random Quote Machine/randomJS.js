@@ -48,15 +48,15 @@ function createQuote(){
 
   $("body").animate({
     backgroundColor: quotesArr[random][3]
-  }, 1000);
+  }, 500);
 
   $(".myButton").animate({
     backgroundColor: quotesArr[random][3]
-  }, 1000);
+  }, 500);
 
   $(".myContainer").animate({
     color: quotesArr[random][3]
-  }, 1000);
+  }, 500);
 
   $("#tweetQuote").attr("href", "https://twitter.com/intent/tweet?text=" + quotesArr[random][0] + " - " + quotesArr[random][1]);
 
