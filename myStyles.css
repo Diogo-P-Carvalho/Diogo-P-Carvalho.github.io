@@ -141,7 +141,7 @@ p{
     font-size: 14px;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 300px) {
   .portfolio-item {
     max-width: none;
     margin: 0;
