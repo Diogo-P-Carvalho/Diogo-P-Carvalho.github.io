@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+}
+
+.title{
+  margin-top: 3%;
+  font-family: 'Lobster', cursive;
+  color:black;
+}
+
+.myContainer{
+  background-color: rgb(235, 235, 235);
+  height: 450px;
+  border-radius: 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 3% auto auto auto;
+  padding:40px 50px;
+  position: relative;
+  display: table;
+}
+
+.myImage{
+  display: inline;
+}
+
+blockquote{
+  border: 0px;
+}
+
+.myButton{
+  color: #fff;
+}
+
+.myButton:hover{
+  color: #fff;
+  opacity: 0.5;
+}
+
+.myButton:focus{
+  color: #fff;
+  outline: none;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.footerText{
+  margin-top: 1%;
+  font-family: 'Lobster', cursive;
+  color:black;
+}
