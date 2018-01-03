@@ -1,0 +1,44 @@
+.title{
+  font-family: 'Righteous', cursive;
+  margin-top: 3%;
+  font-size: 45px;
+}
+
+.my-container{
+  font-family: 'Cairo', sans-serif;
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+.row-margin{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.clear{
+  background-image: url("images/clear.jpg");
+  color: white;
+}
+
+.cloud{
+  background-image: url("images/cloud.jpg");
+}
+
+.mist{
+  background-image: url("images/mist.jpg");
+}
+
+.rain-drizzle{
+  background-image: url("images/rain-drizzle.jpg");
+  color: white;
+}
+
+.snow{
+  background-image: url("images/snow.jpg");
+  color: white;
+}
+
+.thunderstorm-extreme{
+  background-image: url("images/thunderstorm-extreme.jpg");
+  color: white;
+}
