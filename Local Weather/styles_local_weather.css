@@ -15,9 +15,19 @@
   margin-right: 30%;
 }
 
+.no-margin{
+  margin-bottom: 0px;
+}
+
+.iconSize{
+  height: 100px;
+  width: 100px;
+}
+
 .clear{
   background-image: url("images/clear.jpg");
   color: white;
+
 }
 
 .cloud{
