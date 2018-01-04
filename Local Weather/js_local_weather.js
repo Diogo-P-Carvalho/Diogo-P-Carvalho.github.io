@@ -53,7 +53,7 @@ $(document).ready(function(){
           $("#tempIcon").html("<img src='images/Fog.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Clouds"){
-          $("body").addClass("clouds");
+          $("body").addClass("cloud");
           $("#tempIcon").html("<img src='images/Cloudy.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Drizzle" || description==="Rain"){
