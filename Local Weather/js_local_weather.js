@@ -9,9 +9,7 @@ $(document).ready(function(){
       long = position.coords.longitude;
       lat = position.coords.latitude;
 
-      var apiKey = "8c5b98b2028aabf96f925a9df1a79eb6";
-
-      $.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=" + apiKey, function(data){
+      $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + lat + "&" + "lon=" + long, function(data){
 
         var city = data.name;
         var country = data.sys.country;
@@ -22,16 +20,16 @@ $(document).ready(function(){
         var humidity = data.main.humidity;
         var tempSwitch = true;
 
-        cel = (temp-273.15).toFixed(1);
-        fah = ((temp-273.15) * 1.80 + 32.00).toFixed(1);
+        cel = temp.toFixed(1);
+        fah = (temp * 1.80 + 32.00).toFixed(1);
 
         $("#city").html(city + ", ");
         $("#country").html(country);
         $("#temp").html(cel + "°C");
-        $("#tempIcon").html('<img src="http://openweathermap.org/img/w/' + tempIcon + '.png"alt="icon"> </img>');
         $("#description").html(description);
         $("#wind").html("<em>Wind: </em>" + wind + " m/s");
         $("#humidity").html("<em>Humidity: </em>" + humidity + "%");
+
 
         $("#tempSwitch").on("click", function(){
           if(tempSwitch===true){
@@ -48,21 +46,27 @@ $(document).ready(function(){
 
         if(description=="Clear"){
           $("body").addClass("clear");
+          $("#tempIcon").html("<img src='images/Sunny.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Mist"){
           $("body").addClass("mist");
+          $("#tempIcon").html("<img src='images/Fog.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Clouds"){
           $("body").addClass("clouds");
+          $("#tempIcon").html("<img src='images/Cloudy.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Drizzle" || description==="Rain"){
           $("body").addClass("rain-drizzle");
+          $("#tempIcon").html("<img src='images/Rain.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Snow"){
           $("body").addClass("snow");
+          $("#tempIcon").html("<img src='images/Snow.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Thunderstorm" || description=="Extreme"){
           $("body").addClass("thunderstorm-exterme");
+          $("#tempIcon").html("<img src='images/Thunderstorms.png' alt='icon' class='iconSize'>");
         }
 
       });
