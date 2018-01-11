@@ -65,7 +65,7 @@ $(document).ready(function(){
           $("#tempIcon").html("<img src='images/Snow.png' alt='icon' class='iconSize'>");
         }
         else if(description=="Thunderstorm" || description=="Extreme"){
-          $("body").addClass("thunderstorm-exterme");
+          $("body").addClass("thunderstorm-extreme");
           $("#tempIcon").html("<img src='images/Thunderstorms.png' alt='icon' class='iconSize'>");
         }
 
