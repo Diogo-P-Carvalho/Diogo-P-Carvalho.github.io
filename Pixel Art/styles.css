@@ -1,0 +1,79 @@
+body {
+    background: url("https://i.imgur.com/cZSgMiL.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bungee', cursive !important;
+    font-size: 70px !important;
+    margin: 3% !important;
+}
+
+h2 {
+    font-family: 'Fugaz One', cursive !important;
+    margin: 1em 0 0.25em !important;
+}
+
+.bodyFont {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+}
+
+.labelWidth{
+  width: 4% !important;
+}
+
+.colorButton{
+  width: 3% !important;
+  padding: 0 !important;
+  display: inline !important;
+}
+
+.titleRed {
+  color: red;
+}
+
+.titleBlue {
+  color: blue;
+}
+
+.titleGreen {
+  color: green;
+}
+
+.titleOrange {
+  color: orange;
+}
+
+table,
+tr,
+td {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.table_margin{
+  margin-bottom: 80px;
+}
+
+#input_height:invalid {
+  border-color: red;
+}
+
+#input_width:invalid {
+  border-color: red;
+}
