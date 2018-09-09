@@ -13,6 +13,19 @@ hr{
     border-color: #F05F40;
 }
 
+hr.light{
+    border-color: #fff;
+}
+
+a{
+    color: #fff;
+    transition: all 0.2s;
+}
+
+a:hover{
+    color: #212529;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -22,7 +35,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 section{
-    padding: 4rem 0;
+    padding-top: 8rem;
+}
+
+section#certificates{
+    padding: 8rem 0;
+}
+
+section#contact{
+    padding-bottom: 8rem;
 }
 
 .section-heading{
@@ -185,33 +206,39 @@ header.back-img-head p{
     margin: auto;
 }
 
+@media(max-width: 1024px){
+    #about img{
+        height: 450px;
+    }
+}
+
 @media(max-width: 414px){
     #about img{
-        height: 414px;
+        height: 384px;
     }
 }
 
 @media(max-width: 411px){
     #about img{
-        height: 411px;
+        height: 381px;
     }
 }
 
 @media(max-width: 375px){
     #about img{
-        height: 375px;
+        height: 345px;
     }
 }
 
 @media(max-width: 360px){
     #about img{
-        height: 360px;
+        height: 330px;
     }
 }
 
 @media(max-width: 320px){
     #about img{
-        height: 320px;
+        height: 290px;
     }
 }
 
@@ -302,5 +329,75 @@ header.back-img-head p{
         text-transform: uppercase;
         margin-bottom: 5%;
     }
+}
+
+.skills-icon-box{
+    max-width: 400px;
+    font-size: 70px;
+    color: #f05f40;
+}
+
+.skills-icon-box:hover{
+    color: #212529;
+}
+
+.tooltip-inner{
+    background-color: #f05f40 !important;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #f05f40 !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: #f05f40 !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #f05f40 !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #f05f40 !important;
+}
+
+.parallax{
+    background-image: url("../images/parallax-background.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax u{
+    color: #f05f40;
+}
+
+@media(max-width: 768px){
+    .parallax{
+        height: 450px;
+    }
+
+    .parallax h1{
+        font-size: 1.5rem;
+    }
+}
+
+.contact-icon{
+    font-size: 50px;
+    color: #212529;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.contact-icon:hover{
+    color: #fff;
+}
+
+#contact{
+    background-color: #f05f40;
 }
 

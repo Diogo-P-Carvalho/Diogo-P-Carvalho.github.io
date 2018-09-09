@@ -17,6 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i" rel="stylesheet">
 
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <!--My CSS-->
     <link rel="stylesheet" href="../CSS/portfolio.css">
 </head>
@@ -79,10 +83,10 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-6 text-justify">
                     <p>I'm a 31 years old portuguese web developer.</p>
-                    <p>Started my programming journey in 2017 at Galileu, SA finishing the Code Developer Course with Microsoft MTA Software Development Fundamentals.</p>
+                    <p>Started my programming journey in 2017 at Galileu, SA finishing the Code Developer Course with a Microsoft MTA Software Development Fundamentals certification.</p>
                     <p>I have diverse skills, ranging from C#, HTML5, CSS3, JavaScript and SQL all the way to web applications in ASP.NET.</p>
                     <p>With Google Developer Challange Scholarship Front-End Web Dev by UDACITY I Reinforced my HTML, CSS and JavaScript knowledge.</p>
                     <p>I'm determined, hard working and with an eye for detail person. My passion is all about creating logic, structured and effective web sites and applications. I'm always looking for opportunities to learn more every day.</p>
@@ -97,10 +101,18 @@
 
     <!--Portfolio-->
     <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
         <div class="container-fluid p-0">
-            <div class="row no-gutters">
+            <div class="row no-gutters mt-5">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Pipboy/HTML/index.html" class="portfolio-box">
+                    <a href="../Pipboy/HTML/index.html" class="portfolio-box" target="_blank">
                         <img src="../images/pipboy.jpg" alt="Pipboy" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -123,7 +135,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Pixel Art/index.html" class="portfolio-box">
+                    <a href="../Pixel Art/index.html" class="portfolio-box" target="_blank">
                         <img src="../images/pixel-art.jpg" alt="Pixel Art" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -146,7 +158,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Wikipedia Viewer/wikipedia_viewer.html" class="portfolio-box">
+                    <a href="../Wikipedia Viewer/wikipedia_viewer.html" class="portfolio-box" target="_blank">
                         <img src="../images/wikipedia-viewer.jpg" alt="Wikipedia Viewer" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -169,7 +181,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Local Weather/local_weather.html" class="portfolio-box">
+                    <a href="../Local Weather/local_weather.html" class="portfolio-box" target="_blank">
                         <img src="../images/local-weather.jpg" alt="Local Weather" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -192,7 +204,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Random Quote Machine/random_quote_machine.html" class="portfolio-box">
+                    <a href="../Random Quote Machine/random_quote_machine.html" class="portfolio-box" target="_blank">
                         <img src="../images/random-quote.jpg" alt="Random Quote Machine" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -215,7 +227,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../Tribute Page/Tribute to Linus Torvalds.html" class="portfolio-box">
+                    <a href="../Tribute Page/Tribute to Linus Torvalds.html" class="portfolio-box" target="_blank">
                         <img src="../images/linus-torvalds.jpg" alt="Tribute Page" class="img-fluid">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -241,7 +253,160 @@
         </div>
     </section>
 
-    
+    <!--Skills-->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-html5-plain .tooltip-color" data-toggle="tooltip" data-placement="bottom" title="HTML5"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-css3-plain" data-toggle="tooltip" data-placement="bottom" title="CSS3"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-javascript-plain" data-toggle="tooltip" data-placement="bottom" title="JavaScript"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-csharp-plain" data-toggle="tooltip" data-placement="bottom" title="C#"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-mysql-plain" data-toggle="tooltip" data-placement="bottom" title="MySQL"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-dot-net-plain" data-toggle="tooltip" data-placement="bottom" title=".NET Framework"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-bootstrap-plain" data-toggle="tooltip" data-placement="bottom" title="Bootstrap"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-gimp-plain" data-toggle="tooltip" data-placement="bottom" title="Gimp"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-git-plain" data-toggle="tooltip" data-placement="bottom" title="Git"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="fab fa-npm" data-toggle="tooltip" data-placement="bottom" title="NPM"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-jquery-plain" data-toggle="tooltip" data-placement="bottom" title="jQuery"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 text-center">
+                    <div class="mt-5 mx-auto skills-icon-box">
+                        <i class="devicon-visualstudio-plain" data-toggle="tooltip" data-placement="bottom" title="Visual Studio"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Parallax-->
+    <section>
+        <div class="parallax d-flex">
+            <div class="container text-white text-center my-auto">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h1>Good user experience is finding that perfect <u>balance</u> between the way something <u>looks</u> and how it <u>works</u>.</h1>
+                    </div>
+                </div>               
+            </div>         
+        </div>
+    </section>
+
+    <!--Certificates-->
+    <section id="certificates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Certificates</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-lg-4 text-center">
+                    <a href="https://www.udemy.com/certificate/UC-KJYJJUTX/" target="_blank">
+                        <img src="../images/The-Complete-Front-End-Web-Develoment-Course.jpg" alt="The Complete Front-End Web Develoment Course" class="img-fluid">
+                    </a>
+                </div>            
+                <div class="col-lg-4 text-center">
+                    <a href="https://www.udacity.com/grow-with-google" target="_blank">
+                        <img src="../images/Google-Challange-Badge.png" alt="Google Challange" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="https://www.youracclaim.com/badges/3cc0fb8c-2457-4e23-a1a5-92738e3aff66/linked_in" target="_blank">
+                        <img src="../images/MTA_Software_Development_Fundamentals_Certification.png" alt="MTA Microsoft Certification" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center"> 
+                    <h2 class="section-heading">Contact Me</h2>
+                    <hr class="my-4 light">
+                    <p class="mb-5 text-faded">Ready to start your next project with me? That's great! Send me an email and I'll get back to you as soon as possible!</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 text-center mb-4 margin-center">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="https://www.linkedin.com/in/diogo-carvalho-83a96a14a" target="_blank">
+                                <i class="fab fa-linkedin contact-icon"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://github.com/Diogo-P-Carvalho" target="_blank">
+                                <i class="fab fa-github contact-icon"></i>
+                            </a>
+                        </div>
+                    </div>                
+                </div>              
+                <div class="col-lg-4 ml-auto text-center">           
+                    <a href="mailto:dpcarvalho86@gmail.com">
+                        <i class="far fa-envelope contact-icon"></i>
+                        <p>dpcarvalho86@gmail.com</p> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>    
 
     <!--jQuery-->
     <script src="../jQuery/node_modules/jquery/dist/jquery.min.js"></script>
