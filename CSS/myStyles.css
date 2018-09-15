@@ -1,0 +1,252 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.section {
+    position: relative;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -80px;
+    left: 0;
+    visibility: hidden;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.navbar-header a:hover{
+  color: rgb(18, 23, 36) !important;
+}
+
+.navbar-nav  li a:hover {
+    color: rgb(18, 171, 139) !important;
+}
+
+.meu_contentor{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.home{
+  background-color: rgb(18, 171, 139);
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+.img_home{
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(18, 23, 36);
+  display: inline;
+  width:300px;
+  height: 300px;
+}
+
+.title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.icon_home_margin{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon_home{
+  font-size: 40px;
+  color: #fff;
+}
+
+.icon_home:focus, .icon_home:active{
+   outline: none !important;
+   box-shadow: none;
+   color: #fff;
+}
+
+.icon_home:hover{
+  color: rgb(18, 23, 36);
+}
+
+.about_me{
+  background-color: rgb(18, 23, 36);
+  color: #fff;
+}
+
+.skills{
+  color: rgb(18, 23, 36);
+}
+
+.icon_skills{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.space_margin{
+  margin-bottom: 40px;
+}
+
+.portfolio{
+  background-color: rgb(18, 171, 139);
+  color: #fff;
+}
+
+.no_margins{
+  margin: 0px;
+}
+
+.no_paddings{
+  padding: 0px;
+}
+
+.portfolio_img{
+  width: auto;
+  height: auto;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 570px;
+}
+
+.portfolio-item .caption {
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item .caption .caption-content {
+    color: #fff;
+    margin-top: auto;
+}
+
+.portfolio-item .caption .caption-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+@media (min-width: 200px/*992px*/) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(18, 23, 36, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+.certifications{
+  background-color: rgb(18, 23, 36);
+  color: #fff;
+}
+
+.margin_certifications{
+  margin-left: 10%;
+}
+
+.img_certifications{
+  width: 250px;
+  height: 250px;
+}
+
+.caption_title{
+  font-family: "Montserrat", sans-serif;
+  /*font-size: 16px;
+  line-height: 10px;
+  margin-top: 15px;*/
+}
+
+.caption_description{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 120%;
+}
+
+.link_certification{
+  text-decoration: none;
+  color: #fff;
+}
+
+.link_certification:focus, .link_certification:active{
+   outline: none !important;
+   box-shadow: none;
+   text-decoration: none;
+   color: #fff;
+}
+
+.link_certification:hover{
+  text-decoration: none;
+  color: rgb(18, 171, 139);
+}
+
+.myFooter{
+  background-color: #f8f8f8;
+  color: rgb(18, 23, 36);
+}
+
+.myFooter_contentor{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
