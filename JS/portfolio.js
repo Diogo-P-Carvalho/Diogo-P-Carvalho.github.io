@@ -117,6 +117,16 @@ $(document).ready(function(){
         easing: 'cubic-bezier(0.5, 0, 1, 1)',
         duration: '700'
     });
+    ScrollReveal().reveal('.sr-icon-16', {
+        delay: 1700,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-17', {
+        delay: 1800,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
 
     ScrollReveal().reveal('.sr-contact-1', {
         delay: 200,
