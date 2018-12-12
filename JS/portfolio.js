@@ -127,6 +127,11 @@ $(document).ready(function(){
         easing: 'cubic-bezier(0.5, 0, 1, 1)',
         duration: '700'
     });
+    ScrollReveal().reveal('.sr-icon-18', {
+        delay: 1900,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
 
     ScrollReveal().reveal('.sr-contact-1', {
         delay: 200,
