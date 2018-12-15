@@ -102,6 +102,36 @@ $(document).ready(function(){
         easing: 'cubic-bezier(0.5, 0, 1, 1)',
         duration: '700'
     });
+    ScrollReveal().reveal('.sr-icon-13', {
+        delay: 1400,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-14', {
+        delay: 1500,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-15', {
+        delay: 1600,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-16', {
+        delay: 1700,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-17', {
+        delay: 1800,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
+    ScrollReveal().reveal('.sr-icon-18', {
+        delay: 1900,
+        easing: 'cubic-bezier(0.5, 0, 1, 1)',
+        duration: '700'
+    });
 
     ScrollReveal().reveal('.sr-contact-1', {
         delay: 200,
